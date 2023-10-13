@@ -1,60 +1,48 @@
+# INDE 577 - DATA SCIENCE AND MACHINE LEARNING
+Department: Industrial Engineering
+
+Instructor: Davila, Randy
+
+Semester: Fall 2023
+
+Description: Fundamentals of data science and machine learning. Topics include: introduction to scikit-learn, Keras and tensorflow2, linear and logistic regression, clustering, support vector machines, random forest trees, neural networks, deep learning, natural language processing.
+
+Course Overview:
+
+A comprehensive journey through data science and machine learning. This graduate course serves as a holistic introduction, focusing on essential algorithms, data science methodologies, and the complete data processing lifecycle.
 
 
-![image](root_image.jpeg)
+**Topics Covered:**
 
-# INDE 577 — Data Science and Machine Learning
+**Supervised Learning:**
+Model Building, Validation, and Error Analysis
+- Gradient Descent
+- Linear and Logistic Regression
+- Neural Networks, and Support Vector Machines
+- k-Nearest Neighbors, Decision/Regression Trees, and Ensemble Learning
 
-### Instructor: Randy R. Davila
+**Unsupervised Learning:**
+- k-Means Clustering
+- Hierarchical Clustering
+- Principal Component Analysis
+- Anomaly Detection
 
-### Email: rrd6@rice.edu
+**Reinforcement Learning (Time-permitting):**
+- Tabular versus Deep Learning Methods
+- Q-Learning and Policy Gradients
 
-### Phone: 713-221-5876
+**Advanced Topics (if time allows):**
+- Basics of Deep Learning: CNNs, RNNs
+- Natural Language Processing
+- Time Series Analysis
 
-### Office: N/A
+## Repository of ML models and algorithms using jupyter notebooks
 
-### Textbook:
-* (Required) Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, by Aurélien Géron
-* (Recommended Supplemental Reading) Machine Learning with Python for Everyone, Addison Wesley Data & Analytics Series, 2020 Pearson Education, by Mark E. Fenner
+<!-- links of the models developed -->
 
-### Course Description: 
-This data science course covers algorithms from supervised learning, unsupervised learning, and if time permits, reinforcement learning. We will implement many of the machine learning algorithms from scratch in python, but will also make use of, Scikit-Learn, Keras, and Tensorflow. Topics include, but are not limited to:
+<!-- link to example.ipynb -->
 
-- **Data Science Practices**:
-    - Python Programming
-    - Jupyter Notebooks
-    - Visual Studio Code
-    - Version Control with Git and Github
-    - Data Visualization
+<!-- create a link to open a file in this repository, the file name is example.ipynb -->
 
-- **Supervised Learning**:
-    - Model Building and Error Analysis
-    - Linear Regression
-    - Gradient Descent
-    - Logistic Regression
-    - Neural Nets
-    - Support Vector Machines
-    - k-Nearest Neighbors
-    - Decision/ Regression Trees
-    - Ensemble Learning
+[Example](example.ipynb)
 
-- **Unsupervised Learning**:
-    - k-Means Clustering
-    - Principle Component Analysis
-
-- **Reinforcement Learning**:
-    - Tabular versus Deep Learning Methods
- 
-
-### Programming Language: 
-This course relies heavily on programming, and the programming language of choice for many data scientists is python. As such, this course will be taught using  python, versions 3.6 and higher.
-
-### Grading Policy: 
-Each student will build a Github repository throughout the semester and this repository will be the only grading criteria for this course. The students repository will have sub-repositories which will contain data sets, descriptive README.md files, and Jupyter notebooks illustrating implementations of the algorithms covered in this course. At the end of the semester the instructor will view each students GitHub repository and assign course grades according to the following criteria:
-
-* [70 points] Each algorithm covered in the course is successfully implemented on a dataset not used by the instructor during lecture.
-* [10 points] Performance and error analysis is conducted on each algorithm.
-* [10 points] Jupiter notebooks are clear and clean with code that has been written in a professional “pythonic” manor.
-* [10 points] README files are included in each subdirectory clearly explaining the algorithm being implemented as well as explaining the data that it is being used.
-
-Course grades will be assigned in the typical manor,  100 - 90 points (A), 89 - 80 points (B), 79 - 70 points (C), 69-60 points (D), 59 - 0 (F).
- 
