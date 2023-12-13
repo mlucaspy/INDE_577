@@ -1,6 +1,6 @@
 # INDE 577 - Data Science and Machine Learning Repository
 
-Welcome to the repository for the INDE 577 - Data Science and Machine Learning course by Lucas Moreira. This repository contains a collection of Jupyter Notebooks and related materials to support your learning journey in this course.
+Welcome to the repository for the INDE 577 - Data Science and Machine Learning course by Lucas Moreira. This repository contains a collection of Jupyter Notebooks and related materials to support the learning journey in this course.
 
 ## Course Overview
 
