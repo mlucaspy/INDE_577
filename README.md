@@ -16,7 +16,7 @@ The repository is structured into folders based on the characteristics of the to
 - [Linear Regression with Gradient Descent](/1_Supervised_Learning/2_Linear_Regression_with_Gradient_Descent/readme.md)
 - [Support Vector Machines](/1_Supervised_Learning/3_Support_Vector_Machines/readme.md)
 - [k-Nearest Neighbors](/1_Supervised_Learning/4_KNN/readme.md)
-- [Decision Trees](/1_Supervised_Learning/5_Decision_Trees/radme.md)
+- [Decision Trees](/1_Supervised_Learning/5_Decision_Trees/readme.md)
 - [Single Neuron Logistic Regression](/1_Supervised_Learning/6_Single_Neuron_Logistic_Regression_and_Classification/readme.md)
 - [Neural Networks and TensorFlow Keras](/1_Supervised_Learning/7_Neural_Networks_and_TensorFlow_Keras/readme.md)
 - [Ensemble Learning](/1_Supervised_Learning/8_Ensemble_Learning/readme.md)
