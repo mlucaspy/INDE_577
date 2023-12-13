@@ -10,7 +10,7 @@ INDE 577 is a comprehensive course in data science and machine learning, taught 
 
 The repository is structured into folders based on the characteristics of the topics covered in the course:
 
-### Supervised Learning
+### [Supervised Learning](/1_Supervised_Learning/readme.md)
 
 - [Linear Regression Ordinary Least Squares](/1_Supervised_Learning/1_Linear_Regression_OLS/readme.md)
 - [Linear Regression with Gradient Descent](/1_Supervised_Learning/2_Linear_Regression_with_Gradient_Descent/readme.md)
