@@ -10,69 +10,21 @@ INDE 577 is a comprehensive course in data science and machine learning, taught 
 
 The repository is structured into folders based on the characteristics of the topics covered in the course:
 
-### Data Fundamentals and Preprocessing
-
-- [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-  - Collecting and preparing data from various sources.
-  - Handling missing data and ethical considerations.
-
-- [Data Exploration and Visualization](#data-exploration-and-visualization)
-  - Exploring and visualizing datasets.
-  - Descriptive statistics and basic visualizations.
-
-- [Statistical Inference and Hypothesis Testing](#statistical-inference-and-hypothesis-testing)
-  - Concepts of statistical inference, hypothesis testing, and confidence intervals.
-
-- [Feature Engineering and Selection](#feature-engineering-and-selection)
-  - Techniques for feature engineering and selection.
-  - Real-world examples.
-
 ### Supervised Learning
 
-- [Linear Regression and Gradient Descent](/Supervised_Learning/Linear_Regression_and_Gradient_Descent/1_Gradient_Descent/readme.md)
-  - Implementing linear regression.
-  - Gradient descent optimization.
+- [Linear Regression Ordinary Least Squares](/1_Supervised_Learning/1_Linear_Regression_OLS/readme.md)
+- [Linear Regression with Gradient Descent](/1_Supervised_Learning/2_Linear_Regression_with_Gradient_Descent/readme.md)
+- [Support Vector Machines](/1_Supervised_Learning/3_Support_Vector_Machines/readme.md)
+- [k-Nearest Neighbors](/1_Supervised_Learning/4_KNN/readme.md)
+- [Decision Trees](/1_Supervised_Learning/5_Decision_Trees/radme.md)
+- [Single Neuron Logistic Regression](/1_Supervised_Learning/6_Single_Neuron_Logistic_Regression_and_Classification/readme.md)
+- [Neural Networks and TensorFlow Keras](/1_Supervised_Learning/7_Neural_Networks_and_TensorFlow_Keras/readme.md)
+- [Ensemble Learning](/1_Supervised_Learning/8_Ensemble_Learning/readme.md)
 
-- [Logistic Regression and Classification](#logistic-regression-and-classification)
-  - Logistic regression for classification tasks.
-  - Model evaluation metrics.
+### [Unsupervised Learning](/2_Unsupervised_Learning_and_Dimensionality_Reduction/readme.md)
 
-- [Neural Networks and TensorFlow/Keras](#neural-networks-and-tensorflowkeras)
-  - Introduction to neural networks using TensorFlow/Keras.
-  - Building a simple feedforward neural network.
-
-- [Support Vector Machines](#support-vector-machines)
-  - Introduction to Support Vector Machines (SVM).
-  - Applications in classification and regression.
-
-### Unsupervised Learning and Dimensionality Reduction
-
-- [Ensemble Learning and Decision Trees](#ensemble-learning-and-decision-trees)
-  - Ensemble learning techniques.
-  - Comparison with individual models.
-
-- [Unsupervised Learning with Clustering](#unsupervised-learning-with-clustering)
-  - k-Means clustering and hierarchical clustering.
-  - Clustering applications.
-
-- [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
-  - Implementing PCA for dimensionality reduction.
-  - Feature extraction and data compression.
-
-### Advanced Topics
-
-- [Deep Learning Basics](#deep-learning-basics)
-  - Introduction to Convolutional Neural Networks (CNNs) or Recurrent Neural Networks (RNNs).
-  - Image or sequence data analysis.
-
-- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
-  - Text preprocessing, sentiment analysis, or text classification.
-  - NLP techniques and applications.
-
-- [Time Series Analysis](#time-series-analysis)
-  - Techniques like ARIMA modeling, forecasting, and anomaly detection.
-  - Time series data analysis.
-
+- [k-Means Clustering](/2_Unsupervised_Learning_and_Dimensionality_Reduction/Unsupervised_Learning_with_Clustering/readme.md)
+- [Principal Component Analysis (PCA)](/2_Unsupervised_Learning_and_Dimensionality_Reduction/Principal_Component_Analysis_PCA/readme.md)
 
 
 ## Contact Information
