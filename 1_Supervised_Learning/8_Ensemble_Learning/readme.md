@@ -24,21 +24,21 @@ Ensemble methods come in various flavors, each with its unique characteristics a
 
 Hard voting, also known as majority voting, is perhaps the simplest ensemble technique. In hard voting, multiple base models each make a prediction, and the final prediction is determined by a majority vote. Mathematically, it can be represented as follows:
 
-\[
+$$
 \hat{y} = \text{mode}(y_1, y_2, \ldots, y_n)
-\]
+$$
 
-Here, \(\hat{y}\) is the final prediction, and \(y_1, y_2, \ldots, y_n\) are the predictions of individual base models. The mode function selects the most frequently occurring prediction. Hard voting is particularly effective when the base models are diverse and have different sources of error.
+Here, $\hat{y}$ is the final prediction, and $y_1, y_2, \ldots, y_n$ are the predictions of individual base models. The mode function selects the most frequently occurring prediction. Hard voting is particularly effective when the base models are diverse and have different sources of error.
 
 ### 2. Soft Voting
 
 Soft voting, in contrast to hard voting, takes into account not just the majority vote but also the confidence or probability scores assigned by each base model to its predictions. The final prediction is obtained by averaging these probabilities. Mathematically, it can be represented as follows:
 
-\[
+$$
 \hat{y} = \frac{1}{n} \sum_{i=1}^{n} p_i
-\]
+$$
 
-Here, \(\hat{y}\) is the final prediction, \(p_1, p_2, \ldots, p_n\) are the probability vectors predicted by the individual base models, and \(n\) is the number of base models. Soft voting can be more informative when the base models provide probability estimates, allowing for a more nuanced ensemble decision.
+Here, $\hat{y}$ is the final prediction, $p_1, p_2, \ldots, p_n$ are the probability vectors predicted by the individual base models, and $n$ is the number of base models. Soft voting can be more informative when the base models provide probability estimates, allowing for a more nuanced ensemble decision.
 
 ### 3. Bagging (Bootstrap Aggregating)
 
@@ -46,9 +46,9 @@ Bagging, short for bootstrap aggregating, is a powerful ensemble technique that 
 
 Mathematically, the prediction for regression can be represented as:
 
-\[
+$$
 \hat{y} = \frac{1}{n} \sum_{i=1}^{n} y_i
-\]
+$$
 
 For classification, it's the mode function as in hard voting. Bagging reduces the variance of the model by introducing randomness in the training data, leading to more robust and stable predictions.
 
@@ -75,11 +75,11 @@ Another influential ensemble technique is Gradient Boosting, which operates quit
 
 Mathematically, Gradient Boosting can be expressed as:
 
-\[
+$$
 F(x) = \sum_{m=1}^{M} \beta_m h_m(x)
-\]
+$$
 
-Here, \(F(x)\) represents the final prediction, \(\beta_m\) are the weights assigned to each base model \(h_m(x)\), and \(M\) is the total number of base models. Gradient Boosting has several variants, including AdaBoost and XGBoost, each with its unique characteristics and strategies for adjusting model weights.
+Here, $F(x)$ represents the final prediction, $\beta_m$ are the weights assigned to each base model $h_m(x)$, and $M$ is the total number of base models. Gradient Boosting has several variants, including AdaBoost and XGBoost, each with its unique characteristics and strategies for adjusting model weights.
 
 ## Benefits of Ensemble Methods
 
