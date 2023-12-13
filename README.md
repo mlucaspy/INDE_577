@@ -21,10 +21,10 @@ The repository is structured into folders based on the characteristics of the to
 - [Neural Networks and TensorFlow Keras](/1_Supervised_Learning/7_Neural_Networks_and_TensorFlow_Keras/readme.md)
 - [Ensemble Learning](/1_Supervised_Learning/8_Ensemble_Learning/readme.md)
 
-### [Unsupervised Learning](/2_Unsupervised_Learning_and_Dimensionality_Reduction/readme.md)
+### [Unsupervised Learning](/2_Unsupervised_Learning/readme.md)
 
-- [k-Means Clustering](/2_Unsupervised_Learning_and_Dimensionality_Reduction/Unsupervised_Learning_with_Clustering/readme.md)
-- [Principal Component Analysis (PCA)](/2_Unsupervised_Learning_and_Dimensionality_Reduction/Principal_Component_Analysis_PCA/readme.md)
+- [k-Means Clustering](/2_Unsupervised_Learning/Unsupervised_Learning_with_Clustering/readme.md)
+- [Principal Component Analysis (PCA)](/2_Unsupervised_Learning/Principal_Component_Analysis_PCA/readme.md)
 
 
 ## Contact Information
